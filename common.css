@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 :root{
     --primary-color:rgb(31, 83, 255);
     --secondary-color:rgba(31, 83, 255, 0.1);
+    --background-color:#faf7f8;
 }
 
 
@@ -12,11 +13,14 @@ html,body{
     height: 100%;
     font-size: 1.25em;
     font-family: 'Roboto',sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 a{
     text-decoration: none;
-    color: rgb(77, 77, 77);
+    color: rgb(119, 119, 119);
+    font-weight: 300;
 }
 
 .flex{
@@ -54,4 +58,16 @@ a{
 
 .common-padding{
     padding: 0em 1.25em;
+}
+
+.sticky{
+    position: sticky;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.position-relative{
+    position: relative;
 }

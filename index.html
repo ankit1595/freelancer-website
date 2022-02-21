@@ -7,11 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="./common.css">
     <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/310b61f3af.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="flex width-100 ">
+    <header class="flex ">
         <div class="flex flex-1 gap flex-center">
-            <p>rb</p>
+            <p class="sticky">rb</p>
             <h6>rickbossenbroek</h6>
         </div>
         <nav class="flex-2 list-style-none  ">
@@ -28,21 +29,36 @@
                 <li>
                     <a href="./pages/contact/index.html">contact</a>
                 </li>
-                <li>
-                    <i>
-                        =
-                    </i>
+                <li class="sticky">
+                    <i class="fa-thin fa-bars"></i>
                 </li>
             </ul>
         </nav>
     </header>
+    <section class="intro-section flex gap flex-center common-padding">
+        <div class="flex-1">
+            <h1 style="font-size: 2.2em; letter-spacing: 1px;">sleek, <u>no-code</u> websites from design to realisation.</h1>
+            <div class="flex flex-center gap">
+                <button>more about me</button>
+                <button>get in touch</button>
+            </div>
+        </div>
+        <div class="position-relative flex-1" id="image-transform" >
+            <div id="frame" >
+                <img class="rick-image" src="./images/rick-image.jpeg" alt="rick-image">
+            </div>
+            
+            <img id="rotating-text" class="position-absolute" src="./images/hero__text-circle.svg" alt="branding">
+            <img class="position-absolute" id="expert-button" src="./images/w-expert button.svg" alt="W expert button">
+            <img id="t-text" class="position-absolute" src="./images/hero__text-icon.svg" alt="T-icon">
+        </div>
+    </section>
+    <!-- <section></section>
     <section></section>
     <section></section>
     <section></section>
     <section></section>
     <section></section>
-    <section></section>
-    <section></section>
-    <footer></footer>
+    <footer></footer> -->
 </body>
 </html>

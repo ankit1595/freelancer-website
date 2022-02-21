@@ -1,5 +1,6 @@
 h1,h2,h3,h4,h5,h6, p{
     color: var(--primary-color);
+    font-weight: 700;
 }
 
 .list-style-none ul li{
@@ -14,4 +15,47 @@ h1,h2,h3,h4,h5,h6, p{
 
 .list-style-none ul li:hover a{
     color: black;
+}
+
+header, footer, .intro-section{
+    background-color: var(--background-color);
+}
+
+.intro-section{
+    background-image: url(./images/), linear-gradient(291deg, #f5f9ff, #fff6f2);
+    background-position: 50% 100%, 0px 0px;
+    background-size: contain, auto;
+    background-repeat: no-repeat, repeat;
+    padding-bottom: 2em;
+}
+
+.rick-image{
+    width: 90%;
+    height: auto;
+    border-radius: 2.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+#frame{
+    border: 1px solid var(--primary-color);
+    border-radius: 2.5rem;
+    width: 60%;
+}
+
+#expert-button{
+    
+}
+
+#rotating-text{
+    top: 0;
+    right: 0;
+}
+
+#t-text{
+    top: 50%;
+    right: 0;
+}
+
+#image-transform{
+    transform: rotate(6deg) translate(1em,2em);
 }
